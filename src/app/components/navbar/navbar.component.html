@@ -1,0 +1,17 @@
+<nav class="navbar">
+	<div class="navbar-logo">
+		<img src="assets/logo.png" alt="Logo" />
+	</div>
+	<div class="navbar-links" [class.active]="menuOpen">
+		<a href="#benefits">Benefits</a>
+		<a href="#specifications">Specifications</a>
+		<a href="#how-to">How-to</a>
+		<a href="#contact-us">Contact Us</a>
+	</div>
+	<button class="navbar-btn">Learn more</button>
+	<div class="navbar-hamburger" (click)="toggleMenu()">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</nav>
