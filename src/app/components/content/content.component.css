@@ -1,0 +1,109 @@
+.animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.animation.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.title {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    line-height: 85%;
+    font-size: 76px;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: xx-large;
+}
+
+.grey-text {
+    font-family: 'DM Sans', sans-serif;
+    color: #6F6F6F;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.logos{
+    padding: 40px 0px;
+    margin: 0;
+}
+.border-bottom{
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.green-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #485C11;
+    text-align: left;
+}
+
+#benefits{
+    padding: 80px 0px;
+    margin: 0;
+}
+
+.title-2{
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    line-height: 95%;
+    font-size: 50px;
+    text-align: left;
+}
+
+.background-img1{
+    background-image: url('../../../assets/Image1.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#pictures{
+        padding: 80px 0px;
+        margin: 0;
+        border-top: 1px solid #E0E0E0;
+}
+
+.green-button{
+    background: #DFECC6;
+    border-radius: 1000px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    padding: 14px 22px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button-container{
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.background-img2{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), url('../../../assets/Photorow.png');
+    background-size: cover;
+    background-position: center;
+    height: 385px;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}

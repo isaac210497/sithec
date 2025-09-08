@@ -9,10 +9,6 @@
 	border-bottom: 1px solid #eee;
 }
 
-.navbar-logo img {
-	height: 40px;
-}
-
 .navbar-links {
 	display: flex;
 	gap: 32px;
@@ -49,19 +45,11 @@
 	background: #125699;
 }
 
+
 .navbar-hamburger {
 	display: none;
-	flex-direction: column;
 	cursor: pointer;
 	margin-left: 16px;
-}
-.navbar-hamburger span {
-	width: 28px;
-	height: 3px;
-	background: #222;
-	margin: 5px 0;
-	border-radius: 2px;
-	transition: 0.3s;
 }
 
 @media (max-width: 900px) {
